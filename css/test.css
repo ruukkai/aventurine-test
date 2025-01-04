@@ -1,0 +1,12 @@
+body{background-color: lightyellow;}
+
+h1{color: deepskyblue;
+	font-size: 90px;
+	text-decoration: underline;}
+h2{font-size: 22px;
+	color:hotpink;
+	text-decoration: overline;}
+#first{font-size: 150px}
+.small{font-size: 12px;}
+span{font-	style: italic;}
+h2 span{text-decoration: line-through;}
