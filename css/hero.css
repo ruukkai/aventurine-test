@@ -1,11 +1,35 @@
-header{background-color: #ba3d27;
+@font-face{font-family: 'DMSerifText-Regular'; src:url('font/DMSerifText-Regular.ttf');}
+@font-face{font-family: 'Charmonman-Bold'; src:url('font/Charmonman-Bold.ttf');}
+html, body, audio{font-family:'Charmonman-Bold', serif;font-style:bold;
+padding: 0; margin: 0}
+
+header, audio{background-color: #ba3d27;
 padding: 40px;
 text-align: center;
 }
 
-h1{font-size: 90px; color: #f2d338;margin: 5}
-p{font-size: 35px; color:white;}
-header img{border-radius:250px;width: 500px}
+body{background-color: #ba3d27}
+
+h1{font-size: 90px; color: #f2d338;}
+h2{font-size: 50px; color: #f2d338;}
+.header-caption{font-size: 35px; color:white;}
+p{font-size: 30px; color:white;}
+header img{border-radius:300px;width: 500px;border:30px solid #48dbb2}
+.content{max-width:900px;margign:0 auto;padding: 0 100px;line-break: normal;}
+img.big-image{max-width:124.5%}
+
+p.caption{font-size: 20px; color: grey;font-style: italic}
+
+ol li,ul li{list-style:upper-roman ;padding:0 40px;margin:0;text-align:left; color: white;font-size:30px;margin-bottom:20px}
+
+a{color:#27a884;text-decoration: none}
+
+footer{padding:40px 20px;background-color:black;margin-top:20px}
+footer ul{text-align:center}
+
+footer ul li{display:inline-block; margin: 0 5px}
+
+
 /*<header>
 <img src="img/profile.jpg">
 <h1>Aventurine</h1>
