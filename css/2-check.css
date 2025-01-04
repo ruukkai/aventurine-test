@@ -1,0 +1,23 @@
+/* (PART A) "PLAY BUTTON" */
+#play {
+  /* (A1) PLACE AT TOP */
+  position: fixed; top: 0; left: 0; z-index: 999;
+  width: 100%; padding: 10px;
+ 
+  /* (A2) CENTER */
+  display: flex;
+  align-items: center; justify-content: center;
+ 
+  /* (A3) HIDE */
+  opacity: 0; visibility: hidden;
+ 
+  /* (A4) COSMETICS */
+  font-size: 24px;
+  color: #fff; background: #000;
+}
+ 
+/* (A5) SHOW THE "PLAY BUTTON" */
+#play.show {
+  opacity: 1; visibility: visible;
+  transition: all 1s;
+}

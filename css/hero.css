@@ -1,0 +1,13 @@
+header{background-color: #ba3d27;
+padding: 40px;
+text-align: center;
+}
+
+h1{font-size: 90px; color: #f2d338;margin: 5}
+p{font-size: 35px; color:white;}
+header img{border-radius:250px;width: 500px}
+/*<header>
+<img src="img/profile.jpg">
+<h1>Aventurine</h1>
+<p>also known as Kakavasha</p>
+</header>*/
